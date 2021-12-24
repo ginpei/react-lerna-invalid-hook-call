@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@ginpei/react-lerna-invalid-hook-call",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "lerna run start --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
