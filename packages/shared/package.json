@@ -2,20 +2,7 @@
   "private": true,
   "name": "@a/shared",
   "version": "0.0.0",
-  "main": "out/",
-  "types": "out/",
-  "scripts": {
-    "build": "babel src --out-dir out/ --presets @babel/preset-react",
-    "dev": "npm run build -- --watch"
-  },
   "peerDependencies": {
-    "@types/react": "^17.0.34",
     "react": "^17.0.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3"
   }
 }
